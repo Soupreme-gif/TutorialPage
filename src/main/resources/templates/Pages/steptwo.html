@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<h1>
+    Super Job! now onto step three.
+</h1>
+<img th:src="@{/img/3.png}">
+
+<h2>Step three: type: "localhost:8080/step3" in the searchbar</h2>
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

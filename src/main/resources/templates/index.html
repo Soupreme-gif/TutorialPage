@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial Website</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<h1>
+    Tutorial of how to navigate this website
+</h1>
+<img th:src="@{/img/1.png}">
+
+<h2>Step one: type: "localhost:8080/step1" in the searchbar</h2>
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
